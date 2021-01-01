@@ -15,6 +15,25 @@
     text-align: center;
 }
 
+.p {
+    font-family: arial;
+    font-size: 16px;
+    color: #C70039;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.caja-parrafo {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 200px;
+    color: #ffffff;
+    background: #889ccf;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+}
+
 #agrupar {
     width: 960px;
     margin: 15px auto;
@@ -22,7 +41,7 @@
 }
 
 #cabecera {
-    background: #FA91BE;
+    /* background: #FA91BE;*/
     font-family: Arial;
     font-size: 28px;
     /*border: 1px solid #999999*/
@@ -92,7 +111,7 @@ textarea {
     height: auto;
     background: rgb(222, 222, 222);
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
-    float: left;
+    float: center;
 }
 
 .con-cajas {

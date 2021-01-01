@@ -1,6 +1,7 @@
 #menu {
     background: #D9C4BE;
     padding: 5px 15px;
+    text-align: center;
 }
 
 #menu li {
@@ -11,6 +12,7 @@
     font-family: Arial;
     font-size: 14px;
     padding: 10px;
+    text-align: center;
 }
 
 #agrupar {
@@ -75,6 +77,26 @@ textarea {
 
 /**FORMULARIO */
 
-img {
+.img-redes {
     width: 40px;
+}
+
+.img-prod {
+    width: 400px;
+    height: 400px;
+}
+
+.cajas {
+    width: calc(33% - 40px);
+    margin: 20px;
+    height: auto;
+    background: rgb(222, 222, 222);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+.con-cajas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

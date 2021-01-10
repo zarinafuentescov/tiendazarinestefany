@@ -2,6 +2,7 @@
     background: #D9C4BE;
     padding: 5px 15px;
     text-align: center;
+    border-radius: 8px;
 }
 
 #menu li {
@@ -27,12 +28,13 @@
     font-family: arial;
     font-size: 16px;
     font-weight: 200px;
-    color: #ffffff;
+    color: hsl(0, 0%, 100%);
     background: #889ccf;
     margin: 0 0 25px;
     overflow: hidden;
     padding: 20px;
     display: middle;
+    border-radius: 8px;
     /*   width: 900px;
     height: 300px;*/
     align-items: center;
@@ -119,10 +121,25 @@ textarea {
     background: rgb(222, 222, 222);
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
     float: center;
+    border-radius: 8px;
 }
 
 .con-cajas {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
+}
+
+.principal {
+    color: #889ccf;
+    font-family: arial;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #889ccf;
+    font-family: arial;
+    text-align: center;
 }
